@@ -312,13 +312,14 @@ img {
 }
 
 .position {
+    display: block;
     position: relative;
+    margin-bottom: 10px;
 }
 
 .modal-form .field {
     width: 100%;
     padding: 12px 42px;
-    margin-bottom: 10px;
 
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
@@ -329,9 +330,9 @@ img {
 .modal-icon {
     position: absolute;
     top: 0;
-    left:0;
+    left: 0;
 
-    transform: translate(75%, 75%);
+    transform: translate(75%, 175%);
 
     transition: fill 250ms var(--timing);
 }
@@ -699,8 +700,10 @@ footer .logo.link {
     display: flex;
     justify-content: center;
 }
-.form-email {
+.form-point {
     margin-right: 12px;
+}
+.form-email {
     padding: 10px 16px;
     width: 358px;
     height: 50px;
